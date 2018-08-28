@@ -6,7 +6,7 @@ module.exports = shipit => {
     shipit.initConfig({
         default: {
             deployTo: '/home/fdliu/server/gruntDemo',
-            repositoryUrl: 'https://github.com/user/super-project.git',
+            repositoryUrl: 'https://github.com/liuwin7/gruntDemo.git',
         },
         staging: {
             servers: [
