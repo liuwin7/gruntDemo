@@ -9,7 +9,7 @@ module.exports = shipit => {
         shipit.config = shipit.config || {}; // 读取配置
         var cmd = 'cd /home/fdliu/server/gruntDemo/current;' +
             'npm install --production;' +
-            'npm start';
+            'pm2 restart ./bin/www --';
         return shipit.remote(cmd);
     }
 };
