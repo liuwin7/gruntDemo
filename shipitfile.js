@@ -5,11 +5,13 @@ module.exports = shipit => {
 
     shipit.initConfig({
         default: {
-            deployTo: '/var/apps/super-project',
+            deployTo: '/home/fdliu/server/gruntDemo',
             repositoryUrl: 'https://github.com/user/super-project.git',
         },
         staging: {
-            servers: 'deploy@staging.super-project.com',
+            servers: [
+                'fdliu@104.225.148.76:29752', // server 1
+            ],
         },
     })
 };
