@@ -1,0 +1,28 @@
+{
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "grunt": "~0.4.5",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-qunit": "~0.5.2",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "shipit-cli": "^4.1.1",
+    "shipit-deploy": "^4.1.1"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "http-errors": "^1.7.0",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7",
+    "pug": "^2.0.3"
+  }
+}
